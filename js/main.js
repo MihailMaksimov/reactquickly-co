@@ -25,12 +25,12 @@ jQuery(document).ready(function($) {
 	            });
 	        });
 
-
-    	//Fullscreen Background Image Slideshow
+		var root = window.location.origin;
+		//Fullscreen Background Image Slideshow
         $.backstretch([
-            "img/bg/01.jpg",
-            "img/bg/02.jpg",
-            "img/bg/03.jpg"
+            root + "/img/bg/01.jpg",
+            root + "/img/bg/02.jpg",
+            root + "/img/bg/03.jpg"
         ], {duration: 3000, fade: 750});
 
 
